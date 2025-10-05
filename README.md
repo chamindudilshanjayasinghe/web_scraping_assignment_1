@@ -10,14 +10,13 @@ It includes scraping **textual data, market data, and weather data**, then savin
 
 web_scraping_assignment_1/
 │
-├── task1.py # Task 1 - Scraping AI articles (GeeksforGeeks + IBM)
-├── task2.py # Task 2 - Scraping e-commerce product names & prices
-├── task3.py # Task 3 - Scraping weather data from multiple websites
-├── requirements.txt # Project dependencies
-├── task1.txt # Output from Task 1
-├── task2.csv # Output from Task 2
-└── task3.txt # Output from Task 3
-
+├── task1.py          # Task 1 - Scraping AI articles (GeeksforGeeks + IBM)
+├── task2.py          # Task 2 - Scraping e-commerce product names & prices
+├── task3.py          # Task 3 - Scraping weather data from multiple websites
+├── requirements.txt  # Project dependencies
+├── task1.txt         # Output from Task 1
+├── task2.csv         # Output from Task 2
+└── task3.txt         # Output from Task 3
 
 ---
 
@@ -28,14 +27,3 @@ web_scraping_assignment_1/
 python3 -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows PowerShell
-
-pip install -r requirements.txt
-
-python3 task1.py
-
-python3 task2.py
-
-python3 task3.py
-
-requests==2.31.0
-beautifulsoup4==4.12.3
