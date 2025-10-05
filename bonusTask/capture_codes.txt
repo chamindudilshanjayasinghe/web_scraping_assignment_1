@@ -1,0 +1,6 @@
+Image: captchas/captcha_1.jpeg
+URL: https://nopecha.com/image/demo/textcaptcha/55psj8.jpeg
+OCR Raw: S55PSJ85
+
+Cleaned: S55PSJ85
+--------------------------------------------------
